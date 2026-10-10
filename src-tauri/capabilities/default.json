@@ -1,0 +1,6 @@
+{
+  "identifier": "main",
+  "description": "Local library window; store login opens in the system browser.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
