@@ -37,6 +37,8 @@ Open **Connections**. Each login opens the store's official website in your defa
 
 GOG and Epic use community-documented launcher endpoints and public launcher client identifiers. They are not official partner integrations and may require changes when the providers change authentication or endpoints. No upstream downloader code or executables are bundled in this version. Account login and library sync require a final check with the user's accounts; they must not be described as authenticated end-to-end verified until that check is performed.
 
+See [AUTHENTICATION.md](AUTHENTICATION.md) for the immutable public-source references and verification of shared launcher client constants. Individual user credentials remain outside the repository.
+
 ## Data and behavior
 
 - Database: `%LOCALAPPDATA%\app.gameshelf.desktop\library.db` (Tauri resolves the app data directory).
